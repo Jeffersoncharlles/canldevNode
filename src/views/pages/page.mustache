@@ -17,5 +17,11 @@
     {{/data.list}}
 </div>
 
+{{^data.list}}
+<div class="container no-list">
+    <h2>Não há animais disponível nestas condições.</h2>
+</div>
+{{/data.list}}
+
 
 {{>partials/footer}}
